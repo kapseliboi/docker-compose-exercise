@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+  service1:
+    build: Service1/
+    ports:
+        - "8001:80"
+  service2:
+    image: service2:latest
+    build: Service2/
